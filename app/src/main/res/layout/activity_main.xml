@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.master.aac.MainActivity">
+
+    <Button
+        android:id="@+id/btn_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="btnRoomClicked"
+        android:text="Room (Database)" />
+
+    <Button
+        android:id="@+id/btn_lifecycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="btnLifeCycleClicked"
+        android:text="LifeCycle (Life Cycle Aware Models)" />
+
+    <Button
+        android:id="@+id/btn_livedata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="btnLiveDataClicked"
+        android:text="LiveData (Broadcast)" />
+
+    <Button
+        android:id="@+id/btn_viewmodel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="btnViewModelClicked"
+        android:text="ViewModel (Config change StateFullModels)" />
+</LinearLayout>
